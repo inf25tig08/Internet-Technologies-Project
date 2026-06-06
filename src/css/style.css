@@ -58,3 +58,47 @@ footer{
     max-width: 400px;
     height: auto;
 }
+
+/* Tables */
+
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.comparison-table th,
+.comparison-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+}
+
+.comparison-table th {
+    background-color: #1e293b;
+    color: white;
+}
+
+/* Nested lists */
+
+main ul,
+main ol {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+main ul ul,
+main ol ul {
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+main > section > article > ul > li,
+main > section > article > ol > li {
+    font-weight: bold;
+}
+
+main li li {
+    font-weight: normal;
+}
