@@ -58,3 +58,66 @@ footer{
     max-width: 400px;
     height: auto;
 }
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.hero{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p{
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+.cards-section{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+
+.card{
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+
+    text-align: center;
+}
+
+.card h2{
+    margin-bottom: 15px;
+}
+
+.card p{
+    line-height: 1.6;
+}
+
+.card{
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
