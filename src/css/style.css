@@ -52,3 +52,11 @@ footer{
     text-align: center;
     padding: 20px;
 }
+
+.vr-image{
+    display: block;
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
