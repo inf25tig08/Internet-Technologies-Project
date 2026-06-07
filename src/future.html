@@ -105,7 +105,7 @@
         <section>
             <h2>AI in Multimedia Survey</h2>
 
-            <form action="#" method="get">
+            <form action="#" method="get" onsubmit="return validateForm()"> 
                 <fieldset>
                     <legend>Your opinion about AI-generated content</legend>
 
@@ -150,6 +150,21 @@
                 </fieldset>
             </form>
         </section>
+
+        <section>
+            <h2>Evolution Data from XML</h2>
+        
+            <p>
+                This table is loaded dynamically from the XML document.
+            </p>
+        
+            <button type="button" onclick="loadXMLData()">
+                Load XML Data
+            </button>
+        
+            <div id="xmlData"></div>
+        </section>
+
     </main>
 
     <footer></footer>

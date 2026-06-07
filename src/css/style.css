@@ -308,3 +308,93 @@ h1, h2, h3 {
     color: #666;
     margin-top: 6px;
 }
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+.slide-up {
+    animation: slideUp 0.8s ease-out;
+}
+
+button {
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+nav a {
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    transform: scale(1.05);
+}
+
+img {
+    transition: transform 0.3s ease;
+}
+
+figure:hover img,
+.gallery-item:hover img,
+.vr-image:hover {
+    transform: scale(1.04);
+}
+
+article {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.20);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(25px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    button:hover,
+    nav a:hover,
+    article:hover,
+    figure:hover img,
+    .gallery-item:hover img,
+    .vr-image:hover {
+        transform: none;
+    }
+
+    .fade-in,
+    .slide-up {
+        animation-duration: 0.4s;
+    }
+}
