@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evolution of Digital Media</title>
+    <title>AI & Future of Multimedia</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,33 +12,37 @@
         <nav>
             <ul>
                 <li><a href="index.html">The evolution of digital media</a></li>
-                <li><a href="media.html">How media changed over time</a></li>
-                <li><a href="gaming.html">Entertainment, gaming and virtual Reality</a></li>
-                <li><a href="future.html">Artificial Intelligence and the Future of Multimedia</a></li>
+                <li><a href="media.html">Media Evolution</a></li>
+                <li><a href="gaming.html">Gaming & VR</a></li>
+                <li><a href="future.html">AI & Future</a></li>
             </ul>
         </nav>
     </header>
 
     <main class="fade-in">
 
-        <!-- ✅ AI SECTION: intro + JS interactive area -->
-        <section class="ai-section">
-            <h1>Artificial Intelligence and the Future of Multimedia</h1>
-
-            <div class="content-block">
+        <!-- ========== HERO SECTION ========== -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Artificial Intelligence and the Future of Multimedia</h1>
                 <p id="futureText">
                     Artificial Intelligence is changing how multimedia content is created.
                 </p>
-                <button type="button" onclick="changeText()">Change text</button>
+                <button type="button" class="btn-primary" onclick="changeText()">Discover More</button>
+            </div>
+
+
+            <div class="hero-image">
+                <img src="images/ai-hero.png" alt="Artificial Intelligence and Multimedia">
             </div>
         </section>
 
-        <!-- ✅ AI SECTION: show/hide content block -->
+        <!-- ========== AI GENERATED CONTENT ========== -->
         <section class="ai-section">
             <h2>AI Generated Content</h2>
 
             <div class="content-block interactive-area">
-                <button type="button" onclick="toggleContent()">Show / Hide Information</button>
+                <button type="button" class="btn-secondary" onclick="toggleContent()">Show / Hide Information</button>
                 <div id="aiContent">
                     <p>
                         Artificial Intelligence can generate images, music,
@@ -48,75 +52,136 @@
             </div>
         </section>
 
-        <!-- ✅ AI SECTIONS: content blocks -->
+        <!-- ========== AI TOPICS GRID ========== -->
         <section class="ai-section">
             <h2>AI and the Future of Digital Media</h2>
+            <p class="section-subtitle centered">Explore how artificial intelligence is reshaping every corner of digital media.</p>
 
-            <div class="content-block">
-                <article>
-                    <h3>AI-Generated Images</h3>
-                    <p>
-                        AI-generated images are created by algorithms that transform text
-                        prompts into visual content. This technology allows people to create
-                        illustrations, concept art and advertising images without using a
-                        traditional camera or drawing tools.
-                    </p>
-                </article>
-            </div>
+            <div class="cards-grid">
 
-            <div class="content-block">
-                <article>
-                    <h3>AI Music</h3>
-                    <p>
-                        Artificial Intelligence can also compose melodies, generate
-                        background music and imitate musical styles. This can help creators
-                        produce soundtracks more quickly, but it also raises questions about
-                        originality, copyright and the role of human musicians.
-                    </p>
-                </article>
-            </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/ai-images.png" alt="AI Generated Images">
+                    </div>
+                    <div class="card-body">
+                        <article>
+                            <h3>AI-Generated Images</h3>
+                            <p>
+                                AI-generated images are created by algorithms that transform text
+                                prompts into visual content. This technology allows people to create
+                                illustrations, concept art and advertising images without using a
+                                traditional camera or drawing tools.
+                            </p>
+                        </article>
+                    </div>
+                </div>
 
-            <div class="content-block">
-                <article>
-                    <h3>Deepfakes</h3>
-                    <p>
-                        Deepfakes are synthetic videos or audio recordings created using AI.
-                        They can be used for entertainment, cinema and education, but they
-                        can also be dangerous when used to spread misinformation or imitate
-                        real people without permission.
-                    </p>
-                </article>
-            </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/ai-music.png" alt="AI Music Generation">
+                    </div>
+                    <div class="card-body">
+                        <article>
+                            <h3>AI Music</h3>
+                            <p>
+                                Artificial Intelligence can also compose melodies, generate
+                                background music and imitate musical styles. This can help creators
+                                produce soundtracks more quickly, but it also raises questions about
+                                originality, copyright and the role of human musicians.
+                            </p>
+                        </article>
+                    </div>
+                </div>
 
-            <div class="content-block">
-                <article>
-                    <h3>Social Media Evolution</h3>
-                    <p>
-                        Social media platforms use AI to recommend posts, filter content,
-                        detect harmful material and personalize user feeds. This makes online
-                        platforms more engaging, but it can also create filter bubbles and
-                        influence how people receive information.
-                    </p>
-                </article>
-            </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/deepfakes.png" alt="Deepfakes">
+                    </div>
+                    <div class="card-body">
+                        <article>
+                            <h3>Deepfakes</h3>
+                            <p>
+                                Deepfakes are synthetic videos or audio recordings created using AI.
+                                They can be used for entertainment, cinema and education, but they
+                                can also be dangerous when used to spread misinformation or imitate
+                                real people without permission.
+                            </p>
+                        </article>
+                    </div>
+                </div>
 
-            <div class="content-block">
-                <article>
-                    <h3>Impact of AI on Multimedia</h3>
-                    <p>
-                        AI is changing multimedia by making content creation faster, more
-                        accessible and more personalized. However, it also creates new
-                        challenges related to ethics, privacy, copyright and trust. In the
-                        future, users will need to understand not only how to consume digital
-                        media, but also how to evaluate whether media content is authentic.
-                    </p>
-                </article>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/social-media-evolution.png" alt="Social Media Evolution">
+                    </div>
+                    <div class="card-body">
+                        <article>
+                            <h3>Social Media Evolution</h3>
+                            <p>
+                                Social media platforms use AI to recommend posts, filter content,
+                                detect harmful material and personalize user feeds. This makes online
+                                platforms more engaging, but it can also create filter bubbles and
+                                influence how people receive information.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
+                <div class="card card-wide">
+                    <div class="card-image">
+                        <img src="images/ai-impact.png" alt="Impact of AI on Multimedia">
+                    </div>
+                    <div class="card-body">
+                        <article>
+                            <h3>Impact of AI on Multimedia</h3>
+                            <p>
+                                AI is changing multimedia by making content creation faster, more
+                                accessible and more personalized. However, it also creates new
+                                challenges related to ethics, privacy, copyright and trust. In the
+                                future, users will need to understand not only how to consume digital
+                                media, but also how to evaluate whether media content is authentic.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+
             </div>
         </section>
 
-        <!-- ✅ FORM CONTAINER -->
-        <section class="ai-section">
+        <!-- ========== VIDEO SECTION ========== -->
+        <section class="ai-section video-section">
+            <h2>Watch & Learn</h2>
+            <p class="section-subtitle">Selected videos about AI and the future of digital media.</p>
+
+            <div class="video-grid">
+
+                <div class="video-block">
+                    <!-- 📹 VÍDEO YOUTUBE 1 — substitua ID_DO_VIDEO pelo ID real -->
+                    <iframe
+                        src="https://www.youtube.com/embed/ID_DO_VIDEO_1"
+                        title="AI and the Future of Media"
+                        allowfullscreen>
+                    </iframe>
+                    <p class="video-caption">AI and the Future of Media</p>
+                </div>
+
+                <div class="video-block">
+                    <!-- 📹 VÍDEO YOUTUBE 2 — substitua ID_DO_VIDEO pelo ID real -->
+                    <iframe
+                        src="https://www.youtube.com/embed/ID_DO_VIDEO_2"
+                        title="How Deepfakes Work"
+                        allowfullscreen>
+                    </iframe>
+                    <p class="video-caption">How Deepfakes Work</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ========== SURVEY FORM ========== -->
+        <section class="ai-section form-section">
             <h2>AI in Multimedia Survey</h2>
+            <p class="section-subtitle">Share your thoughts on how AI is shaping digital media.</p>
 
             <div class="form-container">
                 <form action="#" method="get" onsubmit="return validateForm()">
@@ -172,21 +237,23 @@
                             <textarea id="ai-comment" name="ai-comment" rows="4" placeholder="Share your thoughts about AI and multimedia"></textarea>
                         </div>
 
-                        <button type="submit">Submit</button>
+                        <button type="submit" class="btn-primary">Submit</button>
                     </fieldset>
                 </form>
             </div>
         </section>
 
-        <!-- ✅ FAQ SECTION (novo) -->
-        <section class="ai-section">
+        <!-- ========== FAQ SECTION ========== -->
+        <section class="ai-section faq-section">
             <h2>Frequently Asked Questions</h2>
+            <p class="section-subtitle">Common questions about AI and digital media.</p>
 
             <div class="faq-container">
 
                 <div class="faq-item">
                     <button type="button" class="faq-btn" onclick="toggleFaq('faq1')">
-                        Is AI-generated content protected by copyright? ▼
+                        Is AI-generated content protected by copyright?
+                        <span class="faq-icon">▼</span>
                     </button>
                     <div id="faq1" class="faq-answer" style="display:none;">
                         <p>
@@ -199,7 +266,8 @@
 
                 <div class="faq-item">
                     <button type="button" class="faq-btn" onclick="toggleFaq('faq2')">
-                        Can deepfakes be detected? ▼
+                        Can deepfakes be detected?
+                        <span class="faq-icon">▼</span>
                     </button>
                     <div id="faq2" class="faq-answer" style="display:none;">
                         <p>
@@ -212,7 +280,8 @@
 
                 <div class="faq-item">
                     <button type="button" class="faq-btn" onclick="toggleFaq('faq3')">
-                        Will AI replace human artists and musicians? ▼
+                        Will AI replace human artists and musicians?
+                        <span class="faq-icon">▼</span>
                     </button>
                     <div id="faq3" class="faq-answer" style="display:none;">
                         <p>
@@ -225,7 +294,8 @@
 
                 <div class="faq-item">
                     <button type="button" class="faq-btn" onclick="toggleFaq('faq4')">
-                        What is a deepfake? ▼
+                        What is a deepfake?
+                        <span class="faq-icon">▼</span>
                     </button>
                     <div id="faq4" class="faq-answer" style="display:none;">
                         <p>
@@ -239,20 +309,22 @@
             </div>
         </section>
 
-        <!-- ✅ XML SECTION: interactive area -->
+        <!-- ========== XML DATA SECTION ========== -->
         <section class="ai-section slide-up">
             <h2>Evolution Data from XML</h2>
+            <p class="section-subtitle">This table is loaded dynamically from the XML document.</p>
 
             <div class="content-block interactive-area">
-                <p>This table is loaded dynamically from the XML document.</p>
-                <button type="button" onclick="loadXMLData()">Load XML Data</button>
+                <button type="button" class="btn-secondary" onclick="loadXMLData()">Load XML Data</button>
                 <div id="xmlData"></div>
             </div>
         </section>
 
     </main>
 
-    <footer></footer>
+    <footer>
+        <p>Evolution of Digital Media Project © 2026</p>
+    </footer>
 
     <script src="js/script.js"></script>
 </body>
