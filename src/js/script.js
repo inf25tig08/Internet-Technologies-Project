@@ -129,3 +129,8 @@ function showXMLData(xml) {
 }
 
 /* Slider de imágenes */
+
+function toggleFaq(id) {
+    const el = document.getElementById(id);
+    el.style.display = el.style.display === "none" ? "block" : "none";
+}
