@@ -28,6 +28,17 @@ function validateForm() {
     var area =
         document.getElementById("ai-area").value;
 
+    var aiImpact = 
+        document.getElementsByName("ai-impact");
+    
+    var selected = false;
+
+    for (var i = 0; i < aiImpact.length; i++) {
+        if(aiImpact[i].checked){
+            selected = true;
+        }
+    }
+
     if (userName == "") {
 
         alert("Please enter your name.");
@@ -40,6 +51,12 @@ function validateForm() {
         alert("Please choose an AI area.");
         return false;
 
+    }
+
+    if (selected == false) {
+
+        alert("Please select an awnser about AI impact");
+        return false;
     }
 
     return true;
