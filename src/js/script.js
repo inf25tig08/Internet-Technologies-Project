@@ -1,7 +1,7 @@
 /* Funcion del contenido HTML */
 function changeText() {
     document.getElementById("futureText").innerHTML =
-        "Artificial Intelligence can generate images, music, videos and interactive content.";
+        "Artificial Intelligence is changing how multimedia content is created by making the production process faster, more accessible, and more innovative. AI tools can generate images, videos, music, and text with minimal human input, helping creators save time and explore new creative possibilities. These technologies are widely used in industries such as entertainment, marketing, education, and social media. At the same time, AI raises important questions about creativity, copyright, and ethics, as it becomes increasingly capable of producing content that closely resembles human-made work. Overall, AI is transforming the multimedia landscape and shaping the future of digital content creation.";
 }
 
 /* Mostrar / ocultar contenido  */
