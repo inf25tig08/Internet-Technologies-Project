@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+fetch("media-evolution.xml")
+    .then(response => response.text())
+    .then(str => {
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(str, "text/xml");
+
+        const technologies = xml.getElementsByTagName("technology");
+
+        console.log("Technologies found:", technologies.length);
+
+        for(let i = 0; i < technologies.length; i++) {
+            const name =
+                technologies[i]
+                .getElementsByTagName("name")[0]
+                .textContent;
+
+            console.log(name);
+        }
+    });
+</script>
+
+</body>
+</html>

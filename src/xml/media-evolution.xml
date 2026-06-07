@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mediaEvolution xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:noNamespaceSchemaLocation="media-evolution.xsd">
+
+    <technology>
+        <name>VHS</name>
+        <year>1976</year>
+        <category>Home Video</category>
+        <description>VHS was a home video cassette format that allowed users to record and watch video content on television.</description>
+    </technology>
+
+    <technology>
+        <name>DVD</name>
+        <year>1995</year>
+        <category>Home Video</category>
+        <description>DVD introduced digital video and audio quality on optical discs, replacing many VHS tapes.</description>
+    </technology>
+
+    <technology>
+        <name>Streaming</name>
+        <year>2007</year>
+        <category>Digital Video</category>
+        <description>Streaming allows users to watch films, series and videos online without using physical media.</description>
+    </technology>
+
+    <technology>
+        <name>Radio</name>
+        <year>1920</year>
+        <category>Audio</category>
+        <description>Radio made audio broadcasting available to mass audiences through scheduled live transmission.</description>
+    </technology>
+
+    <technology>
+        <name>Spotify</name>
+        <year>2008</year>
+        <category>Music Streaming</category>
+        <description>Spotify changed music consumption by offering on-demand songs, playlists and personalized recommendations.</description>
+    </technology>
+
+    <technology>
+        <name>Analog Photography</name>
+        <year>1900</year>
+        <category>Photography</category>
+        <description>Analog photography uses film rolls and chemical development to capture and produce images.</description>
+    </technology>
+
+    <technology>
+        <name>Digital Photography</name>
+        <year>1990</year>
+        <category>Photography</category>
+        <description>Digital photography stores images as digital files, making editing, storage and sharing easier.</description>
+    </technology>
+
+    <technology>
+        <name>AI Generated Images</name>
+        <year>2022</year>
+        <category>Artificial Intelligence</category>
+        <description>AI generated images are created from text prompts or data using artificial intelligence models.</description>
+    </technology>
+
+</mediaEvolution>
