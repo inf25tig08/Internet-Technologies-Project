@@ -37,7 +37,7 @@ Main topics include:
 - Website Availability
 
 ## Netlify URL:
-https://inf25tig08.netlify.app
+https://inf25tig8.netlify.app
 
 ## Installation and Configuration
 Local Installation
