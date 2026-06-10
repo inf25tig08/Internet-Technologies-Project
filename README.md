@@ -73,6 +73,34 @@ Validation was performed using the official W3C validators:
 HTML Validator: https://validator.w3.org/
 CSS Validator: https://jigsaw.w3.org/css-validator/
 
+HTML Result:
+
+index.html:
+<p align="center" justify="center">
+  <img wisth="400" height="400" src="../../images/W3C_indexHTML.png"/>
+</p>
+
+media.html:
+<p align="center" justify="center">
+  <img wisth="400" height="400" src="../../images/mediaHTML.png"/>
+</p>
+
+gaming.html:
+<p align="center" justify="center">
+  <img wisth="400" height="400" src="../../images/W3C_gamingHTML.png"/>
+</p>
+
+future.html:
+<p align="center" justify="center">
+  <img wisth="400" height="400" src="../../images/W3C_futureHTML.png"/>
+</p>
+
+CSS Result:
+<p align="center" justify="center">
+  <img wisth="400" height="400" src="../../images/W3C_styleCSS.png"/>
+</p>
+
+
 All detected errors were corrected during development.
 
 ## XML and XSD Validation
