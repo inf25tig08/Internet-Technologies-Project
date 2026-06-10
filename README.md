@@ -13,6 +13,8 @@ This project was developed for the Internet Technologies course and focuses on t
 
 The project was developed using HTML5, CSS3, JavaScript, XML and XSD.
 
+https://canva.link/rf9hslfvc9bswtj
+
 ## User Interface
 Site Map
 - Home (index.html)
