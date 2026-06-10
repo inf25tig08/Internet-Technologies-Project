@@ -77,27 +77,27 @@ HTML Result:
 
 index.html:
 <p align="center" justify="center">
-  <img wisth="400" height="400" src="../images/W3C_indexHTML.png"/>
+  <img wisth="400" height="400" src="src/images/W3C_indexHTML.png"/>
 </p>
 
 media.html:
 <p align="center" justify="center">
-  <img wisth="400" height="400" src="../../images/mediaHTML.png"/>
+  <img wisth="400" height="400" src="src/images/mediaHTML.png"/>
 </p>
 
 gaming.html:
 <p align="center" justify="center">
-  <img wisth="400" height="400" src="../../images/W3C_gamingHTML.png"/>
+  <img wisth="400" height="400" src="src/images/W3C_gamingHTML.png"/>
 </p>
 
 future.html:
 <p align="center" justify="center">
-  <img wisth="400" height="400" src="../../images/W3C_futureHTML.png"/>
+  <img wisth="400" height="400" src="src/images/W3C_futureHTML.png"/>
 </p>
 
 CSS Result:
 <p align="center" justify="center">
-  <img wisth="400" height="400" src="../../images/W3C_styleCSS.png"/>
+  <img wisth="400" height="400" src="src/images/W3C_styleCSS.png"/>
 </p>
 
 
