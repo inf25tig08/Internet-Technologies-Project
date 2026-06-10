@@ -77,7 +77,7 @@ HTML Result:
 
 index.html:
 <p align="center" justify="center">
-  <img wisth="400" height="400" src="../../images/W3C_indexHTML.png"/>
+  <img wisth="400" height="400" src="../images/W3C_indexHTML.png"/>
 </p>
 
 media.html:
