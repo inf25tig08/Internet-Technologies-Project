@@ -49,6 +49,13 @@ li {margin-bottom: 5px;}
     height: auto;
 }
 
+#main-title-index,
+#main-title-media,
+#main-title-gaming,
+#main-title-future{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
 
 /* HEADER & NAVIGATION */
 
@@ -151,6 +158,10 @@ footer {
     font-size: 1.2rem;
     max-width: 800px;
     margin: auto;
+}
+
+h1::after {
+    content: " 👾";
 }
 
 
@@ -492,6 +503,17 @@ figure:hover img,
     transform: scale(1.04);
 }
 
+img[alt] {
+    border-radius: 8px;
+}
+
+.logo-text {
+    text-indent: -9999px;
+    background-image: url("/images/ai-hero.png");
+    width: 200px;
+    height: 80px;
+    display: block;
+}
 
 /*  SECTION & CONTENT BLOCKS */
 
@@ -695,5 +717,20 @@ article:hover {
     .fade-in,
     .slide-up {
         animation-duration: 0.4s;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-section {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 1.5rem;
     }
 }
